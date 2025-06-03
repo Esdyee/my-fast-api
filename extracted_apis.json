@@ -1,0 +1,129 @@
+{
+  "본사직접터치": {
+    "2fd70c0a-228a-4427-87ab-9bae9ca26f7e": {
+      "documentation": "발송그룹 관리",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/list/get",
+      "type": "http",
+      "responses_count": 2
+    },
+    "f9dff352-a9bf-4d12-90e4-8167d131281a": {
+      "documentation": "발송그룹 종료",
+      "method": "post",
+      "endpoint": "api/cos/adm/hqdt/send-grop/end/put",
+      "type": "http",
+      "responses_count": 1
+    },
+    "453f7922-2804-4195-a8fc-720cd843f24d": {
+      "documentation": "그룹 상세 - 좌측 Topic",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/tctg-list/get",
+      "type": "http",
+      "responses_count": 3
+    },
+    "1765337f-7db6-4e1d-8aaf-b1824cd3d837": {
+      "documentation": "그룹 상세 - 우측 Topic",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/send-list/get",
+      "type": "http",
+      "responses_count": 3
+    },
+    "e2e8afc4-c8e4-4b64-bdf6-2f8613f17596": {
+      "documentation": "고객 반응",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/cust-rctn-list/get",
+      "type": "http",
+      "responses_count": 4
+    },
+    "5d31f2f4-cf36-4606-a4a6-a6fd02dfd315": {
+      "documentation": "발송그룹 고객정보 팝업",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/cust-rctn-detl/get",
+      "type": "http",
+      "responses_count": 3
+    },
+    "15ace688-c1bc-4e33-b873-df5b246d6177": {
+      "documentation": "(삭제) 발송그룹 고객정보 팝업 - 목록 조회",
+      "method": "get",
+      "endpoint": "api/cos/adm/customerContentList/get",
+      "type": "http",
+      "responses_count": 1
+    },
+    "61430b62-7136-456e-85e9-da66b42c46ad": {
+      "documentation": "터치거리 총 건수 조회",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/tctg-cnt/get",
+      "type": "http",
+      "responses_count": 1
+    },
+    "98e7d2d0-2844-40b2-b6bd-5c64aacb61cd": {
+      "documentation": "발송그룹상태별 건수 조회",
+      "method": "get",
+      "endpoint": "api/cos/adm/hqdt/send-grop/stts-cnt/get",
+      "type": "http",
+      "responses_count": 1
+    },
+    "1e6c1e04-0ae0-435a-a0b3-03f32249e0ea": {
+      "documentation": "",
+      "method": "post",
+      "endpoint": "api/cos/adm/excl/hqdt/send-grop/send-trgt/post",
+      "type": "http",
+      "responses_count": 2
+    }
+  },
+  "터치거리 관리": {
+    "본직터 - 이벤트": {
+      "26c591b6-a292-4da7-9af3-1612a2d463de": {
+        "documentation": "터치거리 이벤트 목록 조회",
+        "method": "get",
+        "endpoint": "api/cos/adm/hqdt/toch-trgt/evnt-list/get",
+        "type": "http",
+        "responses_count": 2
+      },
+      "eb578a3f-c291-4493-9000-e4e718e4558e": {
+        "documentation": "터치거리 이벤트 상세 조회",
+        "method": "get",
+        "endpoint": "api/cos/adm/hqdt/toch-trgt/evnt-detl/get",
+        "type": "http",
+        "responses_count": 3
+      },
+      "91b991f9-b4e8-4b11-86da-591c63eafd61": {
+        "documentation": "터치거리 이벤트 등록",
+        "method": "post",
+        "endpoint": "api/cos/adm/hqdt/toch-trgt/evnt-rgst-altr/post",
+        "type": "http",
+        "responses_count": 1
+      }
+    },
+    "본직터 - 터치콘텐츠": {
+      "26a56072-deb4-4f23-baf3-1ac616bd7cda": {
+        "documentation": "터치거리 터치콘텐츠 목록 조회",
+        "method": "get",
+        "endpoint": "api/cos/adm/hqdt/toch-trgt/toch-cnts-list/get",
+        "type": "http",
+        "responses_count": 3
+      },
+      "e6017d63-3197-45a5-8b10-9b9bcd07c030": {
+        "documentation": "불러오기 팝업 목록 조회",
+        "method": "get",
+        "endpoint": "api/cos/adm/toch-trgt/fetch-list/get",
+        "type": "http",
+        "responses_count": 2
+      },
+      "57781ed0-4c0b-496f-bc98-cc7d1a794233": {
+        "documentation": "터치거리 터치콘텐츠 상세 조회",
+        "method": "get",
+        "endpoint": "api/cos/adm/hqdt/toch-trgt/toch-cnts-detl/get",
+        "type": "http",
+        "responses_count": 2
+      },
+      "7ec800c4-044e-4bfd-be5c-48f181f14ddf": {
+        "documentation": "터치거리 등록",
+        "method": "post",
+        "endpoint": "api/cos/adm/hqdt/toch-trgt/toch-cnts-rgst-altr/post",
+        "type": "http",
+        "responses_count": 1
+      }
+    }
+  }
+}
